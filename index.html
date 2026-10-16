@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sanchit Tandon — Technical Lead working in automotive systems integration, testing, and engineering automation.">
+  <meta name="theme-color" content="#0b1326">
+  <title>Sanchit Tandon | Engineering Portfolio</title>
+  <style>
+    :root{--bg:#0b1326;--panel:#121f37;--surface:#182944;--text:#eef4ff;--muted:#b1c3d9;--accent:#60d7cd;--blue:#7fb5ff;--border:rgba(183,210,247,.17)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+    a{color:inherit;text-decoration:none}a:focus-visible{outline:3px solid var(--accent);outline-offset:4px} .wrap{width:min(1100px,calc(100% - 44px));margin:auto}
+    nav{background:rgba(11,19,38,.96);position:sticky;top:0;z-index:10;border-bottom:1px solid var(--border);backdrop-filter:blur(12px)}
+    .navin{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:70px}.brand{font-weight:800;letter-spacing:-.03em;font-size:1.12rem}.brand span{color:var(--accent)}
+    .navlinks{display:flex;gap:24px;flex-wrap:wrap;font-size:.89rem;color:var(--muted)}.navlinks a:hover{color:var(--accent)}
+    .hero{padding:108px 0 95px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 80% 18%,rgba(73,127,218,.2),transparent 46%),radial-gradient(ellipse at 7% 95%,rgba(57,194,184,.12),transparent 42%)}
+    .eyebrow{font-size:.8rem;letter-spacing:.18em;font-weight:800;text-transform:uppercase;color:var(--accent)}h1{font-size:clamp(2.65rem,6vw,5rem);line-height:1.13;letter-spacing:-.045em;max-width:850px;margin:20px 0 24px}h1 em{font-style:normal;color:var(--accent)}
+    .hero p{max-width:700px;color:var(--muted);font-size:1.17rem;margin:0 0 30px}.actions{display:flex;gap:14px;flex-wrap:wrap}
+    .button{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 20px;border-radius:9px;font-weight:750;font-size:.95rem;border:1px solid var(--border)}.button.primary{background:var(--accent);border-color:var(--accent);color:#0b2530}.button:hover{transform:translateY(-2px)}
+    section{padding:74px 0;scroll-margin-top:75px}.sectionhead{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:28px}h2{font-size:clamp(1.65rem,3vw,2.35rem);line-height:1.15;letter-spacing:-.035em;margin:8px 0}.sub{max-width:640px;color:var(--muted);margin:0}.kicker{text-transform:uppercase;color:var(--accent);letter-spacing:.14em;font-size:.73rem;font-weight:800}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--panel);padding:26px;border:1px solid var(--border);border-radius:16px}.card h3{margin:8px 0 9px;font-size:1.19rem;line-height:1.4}.card p{color:var(--muted);font-size:.94rem;margin:0}.symbol{height:39px;width:39px;background:rgba(96,215,205,.13);color:var(--accent);display:grid;place-items:center;border-radius:11px;font-size:1.25rem}
+    .about{background:rgba(255,255,255,.025)}.aboutgrid{display:grid;grid-template-columns:1.4fr 1fr;gap:35px;align-items:start}.about p{color:var(--muted);font-size:1.03rem}.facts{display:flex;flex-wrap:wrap;gap:9px;margin-top:21px}.chip{display:inline-flex;border:1px solid var(--border);background:rgba(255,255,255,.035);padding:7px 12px;border-radius:999px;color:#cfe0f4;font-size:.82rem}
+    .aside{background:var(--panel);padding:26px;border-radius:16px;border:1px solid var(--border)}.aside h3{margin:0 0 15px}.aside p{margin:10px 0}.aside strong{color:var(--text)}
+    .project{display:flex;flex-direction:column;gap:10px}.tag{align-self:flex-start;color:var(--accent);background:rgba(96,215,205,.09);padding:4px 10px;border-radius:99px;font-size:.75rem;font-weight:800}.tag.future{color:#a5c5ff;background:rgba(127,181,255,.11)}
+    .roadmap{background:rgba(255,255,255,.025)}.roadmap .card{background:#15233a}.roadmap .card h3{margin-top:10px}.note{color:var(--muted);font-size:.9rem;margin-top:22px}
+    .contact-panel{border:1px solid var(--border);border-radius:17px;padding:42px;background:linear-gradient(120deg,#132a3a,#172341)}.contact-panel p{max-width:650px;color:var(--muted)}.contact-panel .button{margin-top:8px}
+    footer{border-top:1px solid var(--border);padding:24px 0 38px;color:var(--muted);font-size:.85rem}footer .wrap{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+    @media(max-width:790px){.grid{grid-template-columns:1fr 1fr}.aboutgrid{grid-template-columns:1fr}.hero{padding:80px 0 70px}.navin{align-items:flex-start;flex-direction:column;padding:15px 0;gap:9px}.navlinks{gap:13px;font-size:.82rem}section{padding:57px 0}}
+    @media(max-width:530px){.grid{grid-template-columns:1fr}.wrap{width:min(100% - 32px,1100px)}.hero p{font-size:1rem}.contact-panel{padding:26px}.sectionhead{display:block}}
+  </style>
+</head>
+<body>
+  <!-- PERSONALIZE: Update the name, bio, work examples and roadmap to match what you can publicly disclose. -->
+  <nav>
+    <div class="wrap navin">
+      <a href="#home" class="brand">Sanchit<span>.</span> Tandon</a>
+      <div class="navlinks" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#focus">Current Work</a><a href="#projects">Projects</a><a href="#roadmap">Future Work</a><a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <header class="hero" id="home">
+      <div class="wrap">
+        <div class="eyebrow">Technical Lead · Systems Integration · Automation</div>
+        <h1>Engineering reliable systems. <em>Exploring what comes next.</em></h1>
+        <p>I'm Sanchit Tandon, an engineering technical lead focused on automotive e-powertrain integration, validation, and test automation. I'm also exploring how my skills can contribute to robotics and space technology.</p>
+        <div class="actions"><a class="button primary" href="#projects">Explore my work ↗</a><a class="button" href="#roadmap">My future projects →</a></div>
+      </div>
+    </header>
+
+    <section class="about" id="about">
+      <div class="wrap aboutgrid">
+        <div>
+          <span class="kicker">About me</span>
+          <h2>Where software meets physical systems</h2>
+          <p>My work brings together system-level testing, automotive electronics, network communication, and engineering tools. I enjoy solving integration challenges and building repeatable, data-driven test workflows.</p>
+          <p>I use this site to document my professional interests, share independently publishable examples, and track the capabilities and technologies I am learning.</p>
+          <div class="facts"><span class="chip">Automotive E-Powertrain</span><span class="chip">Systems Testing</span><span class="chip">Python</span><span class="chip">ECU-TEST</span><span class="chip">CAN & Ethernet</span><span class="chip">Git & JIRA</span><span class="chip">Engineering Leadership</span></div>
+        </div>
+        <aside class="aside">
+          <h3>At a glance</h3>
+          <p><strong>Current role</strong><br>Technical Lead — Automotive Systems Integration & Testing</p>
+          <p><strong>Working with</strong><br>Test benches, embedded communication, automation and measurement data</p>
+          <p><strong>Looking ahead</strong><br>Robotics, automation infrastructure and space engineering</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="focus">
+      <div class="wrap">
+        <div class="sectionhead"><div><span class="kicker">Current work</span><h2>What I work on today</h2><p class="sub">An overview of my professional focus areas, described without confidential project details.</p></div></div>
+        <div class="grid">
+          <article class="card"><div class="symbol">⚡</div><h3>E-Powertrain integration</h3><p>System-level validation of automotive electrical powertrain components, including charging and power conversion functions.</p></article>
+          <article class="card"><div class="symbol">⌘</div><h3>Test automation</h3><p>Building and improving test workflows using engineering tools, scripting and repeatable data analysis.</p></article>
+          <article class="card"><div class="symbol">↗</div><h3>System communication</h3><p>Understanding and testing embedded interfaces, with particular interest in CAN and Ethernet-based communication.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="wrap">
+        <div class="sectionhead"><div><span class="kicker">Projects & case studies</span><h2>Engineering topics I'm documenting</h2><p class="sub">These are starter portfolio themes. Replace them with specific, shareable demos and results as your portfolio develops.</p></div></div>
+        <div class="grid">
+          <article class="card project"><span class="tag">Portfolio topic</span><h3>Measurement & trace analysis</h3><p>Ideas for comparing test runs, interpreting signals and presenting results clearly using Python and engineering data.</p></article>
+          <article class="card project"><span class="tag">Portfolio topic</span><h3>Automated test workflows</h3><p>Approaches to structured testing, repeatable execution and useful test reporting in embedded systems.</p></article>
+          <article class="card project"><span class="tag">Portfolio topic</span><h3>Vehicle network validation</h3><p>Technical notes and safe, self-made examples of CAN and Ethernet communication testing.</p></article>
+        </div>
+        <p class="note">Tip: Over time, turn each topic into a case study with a problem statement, tools used, your approach and a non-confidential outcome.</p>
+      </div>
+    </section>
+
+    <section class="roadmap" id="roadmap">
+      <div class="wrap">
+        <div class="sectionhead"><div><span class="kicker">Future work</span><h2>What I'm learning and building next</h2><p class="sub">A living roadmap I can update as new projects and skills develop.</p></div></div>
+        <div class="grid">
+          <article class="card project"><span class="tag future">Exploring</span><h3>Robotics integration</h3><p>Applying my systems, testing and integration background to robotics platforms and autonomous machines.</p></article>
+          <article class="card project"><span class="tag future">Skills in progress</span><h3>CI/CD for hardware testing</h3><p>Learning ways to combine Python, Git and continuous integration with repeatable hardware validation.</p></article>
+          <article class="card project"><span class="tag future">Long-term interest</span><h3>Space systems engineering</h3><p>Building knowledge of reliable space hardware, system verification and multidisciplinary engineering.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap contact-panel">
+        <span class="kicker">Contact</span>
+        <h2>Let's exchange ideas.</h2>
+        <p>Interested in system integration, engineering automation, robotics or cross-disciplinary projects? I'm open to technical conversations and professional connections.</p>
+        <!-- IMPORTANT: Replace YOUR_GITHUB_USERNAME with your actual GitHub username before publishing. -->
+        <a class="button primary" href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" rel="noopener noreferrer">Find me on GitHub ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap"><span>© <span id="year">2026</span> Sanchit Tandon</span><span>Built as a personal engineering portfolio · Hosted on GitHub Pages</span></div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
